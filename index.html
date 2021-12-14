@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="Gulp pack for easy html/php markup development">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.svg"
+				type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.min.css">
+	<title>Easy-webdev-startpack v3.0</title>
+</head>
+
+
+<body>
+	<header class="header">
+  <div class="wrapper container">
+     
+          <div class="container-logo">
+              <img src="./img/logo.webp" alt="" class="logo">
+          </div>
+          <div class="container__menu">
+              <nav class="menu">
+                  <ul class="menu-body">
+                    <li class="menu-list"><a href="" class="menu-link">Destinantion</a></li>
+                    <li class="menu-list"><a href="" class="menu-link">Service</a></li>
+                    <i class="arrow down"></i>
+                    <li class="menu-list"><a href="" class="menu-link">About us</a></li>
+                    <li class="menu-list"><a href="" class="menu-link">Contact</a></li>
+                  </ul>
+              </nav>
+              <div class="magnifier">
+                  <img src="./img/magnifier.svg" alt="" class="magnifier-img">
+              </div>
+              <div id="burger-open" class="container__burger">
+                  <div class="burger-menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+
+              </div>
+          </div>
+      
+  </div>
+</header>
+
+
+	<svg display="none" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="twitter" viewBox="0 0 37 37">
+			<g filter="url(#filter0_d_0_238)">
+				<circle cx="18.4681" cy="14.4681" r="14.4681" fill="white" />
+			</g>
+			<path
+				d="M23.7219 11.6537C23.7302 11.7686 23.7302 11.8828 23.7302 11.997C23.7302 15.4924 21.1369 19.5202 16.3977 19.5202C14.9376 19.5202 13.5812 19.0863 12.4397 18.3328C12.647 18.357 12.8466 18.3656 13.0623 18.3656C14.2223 18.3685 15.3494 17.9705 16.2621 17.2359C15.7242 17.2259 15.2029 17.0439 14.7708 16.7152C14.3387 16.3865 14.0174 15.9276 13.8518 15.4025C14.0111 15.4268 14.1711 15.4432 14.3387 15.4432C14.5697 15.4432 14.802 15.4104 15.0176 15.3533C14.4339 15.2324 13.9091 14.9078 13.5323 14.4347C13.1555 13.9617 12.9501 13.3694 12.9509 12.7585V12.7256C13.2945 12.9219 13.6931 13.0447 14.1154 13.0611C13.7616 12.8199 13.4716 12.4926 13.2711 12.1085C13.0705 11.7243 12.9658 11.2952 12.9663 10.8594C12.9663 10.3684 13.0936 9.91814 13.3169 9.5256C13.9645 10.3429 14.7722 11.0114 15.6877 11.4881C16.6032 11.9647 17.6061 12.2387 18.6314 12.2924C18.5917 12.0955 18.5674 11.8913 18.5674 11.6865C18.5672 11.3393 18.6338 10.9954 18.7632 10.6745C18.8927 10.3536 19.0825 10.0621 19.3219 9.81652C19.5612 9.57096 19.8454 9.37621 20.1582 9.2434C20.4709 9.11058 20.8061 9.04231 21.1446 9.04248C21.8868 9.04248 22.5567 9.3615 23.0277 9.87744C23.6046 9.76298 24.1579 9.54689 24.6631 9.23875C24.4707 9.84975 24.0679 10.3679 23.5299 10.696C24.0417 10.6361 24.5418 10.4981 25.0137 10.2864C24.6612 10.8136 24.2245 11.2758 23.7219 11.6537Z" />
+			<defs>
+				<filter id="filter0_d_0_238" x="0" y="0" width="36.9362" height="36.9363" filterUnits="userSpaceOnUse"
+					color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="4" />
+					<feGaussianBlur stdDeviation="2" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_238" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_238" result="shape" />
+				</filter>
+			</defs>
+		</symbol>
+	</svg>
+	<svg display="none" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="facebook" viewBox="0 0 37 37">
+			<g filter="url(#filter0_d_0_235)">
+				<circle cx="18.4894" cy="14.4681" r="14.4681" fill="white" />
+			</g>
+			<path
+				d="M19.4672 21.4537V14.9779H21.5619L21.8733 12.4424H19.4672V10.8275C19.4672 10.0958 19.6626 9.59488 20.6695 9.59488H21.9452V7.33436C21.3245 7.26499 20.7006 7.23149 20.0763 7.23402C18.2247 7.23402 16.9535 8.41287 16.9535 10.577V12.4377H14.8724V14.9732H16.958V21.4537H19.4672Z"
+				fill="#00395F" />
+			<defs>
+				<filter id="filter0_d_0_235" x="0.0213013" y="0" width="36.9362" height="36.9363"
+					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="4" />
+					<feGaussianBlur stdDeviation="2" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_235" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_235" result="shape" />
+				</filter>
+			</defs>
+
+		</symbol>
+	</svg>
+	<svg display="none" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="insta" viewBox="0 0 37 37">
+			<g filter="url(#filter0_d_0_244)">
+				<circle cx="18.5106" cy="14.4681" r="14.4681" fill="white" />
+			</g>
+			<path
+				d="M18.7034 11.3921C17.9535 11.3921 17.2342 11.7042 16.7039 12.2598C16.1736 12.8153 15.8757 13.5689 15.8757 14.3545C15.8757 15.1402 16.1736 15.8937 16.7039 16.4493C17.2342 17.0049 17.9535 17.317 18.7034 17.317C19.4534 17.317 20.1726 17.0049 20.7029 16.4493C21.2332 15.8937 21.5311 15.1402 21.5311 14.3545C21.5311 13.5689 21.2332 12.8153 20.7029 12.2598C20.1726 11.7042 19.4534 11.3921 18.7034 11.3921ZM18.7034 16.2785C18.2162 16.2785 17.749 16.0757 17.4044 15.7148C17.0599 15.3539 16.8664 14.8643 16.8664 14.3539C16.8664 13.8435 17.0599 13.354 17.4044 12.993C17.749 12.6321 18.2162 12.4293 18.7034 12.4293C19.1906 12.4293 19.6579 12.6321 20.0024 12.993C20.3469 13.354 20.5404 13.8435 20.5404 14.3539C20.5404 14.8643 20.3469 15.3539 20.0024 15.7148C19.6579 16.0757 19.1906 16.2785 18.7034 16.2785Z"
+				fill="#00395F" />
+			<path
+				d="M21.531 12.5772C22.1557 12.5772 22.6621 12.0467 22.6621 11.3923C22.6621 10.7378 22.1557 10.2073 21.531 10.2073C20.9063 10.2073 20.3999 10.7378 20.3999 11.3923C20.3999 12.0467 20.9063 12.5772 21.531 12.5772Z"
+				fill="#00395F" />
+			<path
+				d="M24.5945 10.0817C24.4346 9.6496 24.1902 9.25724 23.8769 8.92969C23.5637 8.60214 23.1885 8.34662 22.7754 8.17948C22.292 7.98966 21.7813 7.88703 21.2651 7.87594C20.5997 7.84559 20.389 7.83691 18.7018 7.83691C17.0146 7.83691 16.7984 7.83691 16.1386 7.87594C15.6227 7.88646 15.1124 7.98912 14.6296 8.17948C14.2164 8.34643 13.8411 8.60188 13.5279 8.92946C13.2146 9.25703 12.9702 9.64949 12.8105 10.0817C12.629 10.5873 12.5311 11.1215 12.521 11.6615C12.4913 12.3567 12.4823 12.5772 12.4823 14.3427C12.4823 16.1076 12.4823 16.3324 12.521 17.024C12.5314 17.5646 12.6288 18.0979 12.8105 18.6046C12.9707 19.0366 13.2153 19.4289 13.5286 19.7564C13.842 20.0839 14.2172 20.3395 14.6303 20.5067C15.1122 20.7042 15.6227 20.8142 16.1399 20.832C16.8053 20.8623 17.016 20.8717 18.7032 20.8717C20.3904 20.8717 20.6066 20.8717 21.2665 20.832C21.7826 20.821 22.2933 20.7186 22.7768 20.5291C23.1898 20.3616 23.5648 20.1059 23.878 19.7782C24.1913 19.4506 24.4358 19.0583 24.5959 18.6263C24.7776 18.1204 24.875 17.587 24.8854 17.0464C24.9151 16.3512 24.9241 16.1307 24.9241 14.3652C24.9241 12.5996 24.9241 12.3755 24.8854 11.6839C24.8774 11.1363 24.779 10.5942 24.5945 10.0817ZM23.753 16.9705C23.7486 17.387 23.6759 17.7996 23.5381 18.1905C23.4344 18.4715 23.2755 18.7267 23.0718 18.9397C22.8681 19.1526 22.624 19.3186 22.3553 19.427C21.9858 19.5704 21.5956 19.6465 21.2015 19.6518C20.5451 19.6836 20.36 19.6915 18.6769 19.6915C16.9925 19.6915 16.8205 19.6915 16.1517 19.6518C15.7578 19.6467 15.3677 19.5707 14.9986 19.427C14.7289 19.3193 14.4838 19.1536 14.2793 18.9406C14.0747 18.7276 13.9151 18.472 13.8109 18.1905C13.6751 17.8038 13.6025 17.3961 13.596 16.9843C13.5663 16.2977 13.5594 16.104 13.5594 14.3435C13.5594 12.5822 13.5594 12.4023 13.596 11.702C13.6005 11.2857 13.6732 10.8733 13.8109 10.4828C14.0216 9.91254 14.4534 9.46373 14.9986 9.24548C15.3679 9.10248 15.7579 9.02647 16.1517 9.02071C16.8087 8.98964 16.9932 8.98096 18.6769 8.98096C20.3607 8.98096 20.5334 8.98096 21.2015 9.02071C21.5956 9.02567 21.9859 9.10171 22.3553 9.24548C22.624 9.35408 22.8681 9.52025 23.0718 9.73333C23.2755 9.9464 23.4343 10.2017 23.5381 10.4828C23.6739 10.8694 23.7466 11.2771 23.753 11.689C23.7827 12.3763 23.7903 12.5692 23.7903 14.3305C23.7903 16.091 23.7903 16.2803 23.7606 16.9712H23.753V16.9705Z"
+				fill="#00395F" />
+			<defs>
+				<filter id="filter0_d_0_244" x="0.0425415" y="0" width="36.9362" height="36.9363"
+					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="4" />
+					<feGaussianBlur stdDeviation="2" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_244" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_244" result="shape" />
+				</filter>
+			</defs>
+		</symbol>
+	</svg>
+	<svg display="none" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="in" viewBox="0 0 37 37">
+			<g filter="url(#filter0_d_0_241)">
+				<circle cx="18.5319" cy="14.4681" r="14.4681" fill="white" />
+			</g>
+			<path
+				d="M15.3578 20.4143V12.335H12.6624V20.4143H15.3578ZM14.0104 11.2313C14.9504 11.2313 15.5354 10.6109 15.5354 9.83563C15.5179 9.04287 14.9504 8.4397 14.0283 8.4397C13.1063 8.4397 12.5034 9.04288 12.5034 9.83563C12.5034 10.6109 13.0883 11.2313 13.9929 11.2313H14.0104ZM16.8497 20.4143H19.545V15.9024C19.545 15.661 19.5625 15.4197 19.6337 15.2471C19.8286 14.7647 20.2721 14.265 21.0167 14.265C21.992 14.265 22.3822 15.0059 22.3822 16.092V20.4142H25.0774V15.7816C25.0774 13.3 23.7476 12.1454 21.9742 12.1454C20.5202 12.1454 19.8818 12.9551 19.5271 13.5066H19.5451V12.3349H16.8497C16.8851 13.093 16.8497 20.4143 16.8497 20.4143Z"
+				fill="#00395F" />
+			<defs>
+				<filter id="filter0_d_0_241" x="0.0638428" y="0" width="36.9362" height="36.9363"
+					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="4" />
+					<feGaussianBlur stdDeviation="2" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0 0.7375 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_241" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_241" result="shape" />
+				</filter>
+			</defs>
+		</symbol>
+	</svg>
+
+	<main class="main">
+		<div class="oneblock container">
+			<div class="best">
+				<h1 class="best__title"> Get the best deals on Easy Travel trips</h1>
+				<p class="best__subtitile">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+					printer</p>
+				<div class="best__button">
+					<button class="apple">
+						<img src="./img/appleimg.svg" alt="" class="apple__img">
+						<a class="apple__text">Download on the</a>
+						<p class="apple__subtext">Apple Store</p>
+					</button>
+					<button class="google">
+						<img src="./img/googleimg.svg" alt="" class="google__img">
+						<a class="google__text">Get it from</a>
+						<p class="google__subtext">Google Play</p>
+					</button>
+				</div>
+			</div>
+		</div>
+		<section class="brend">
+			<div class="container ">
+				<div class="container__brendimg">
+					<img src="./img/netflix.webp" alt="" class="brend__img">
+					<img src="./img/paypal.webp" alt="" class="brend__img">
+					<img src="./img/ebay.webp" alt="" class="brend__img">
+					<img src="./img/amazon.webp" alt="" class="brend__img">
+					<img src="./img/microsoft.webp" alt="" class="brend__img">
+				</div>
+			</div>
+		</section>
+		<section class="booking">
+
+			<div class="container">
+				<div class="booking__block">
+					<h2 class="booking__title">Find The Best Destination</h2>
+					<div class="container__search">
+						<div class="search">
+							<div class="search__location">
+								<img src="./img/locationworld.svg" alt="" class="search__img">
+								<span class="search__text">Location</span>
+								<span class="search__location-line"></span>
+							</div>
+							<div class="search__checkin">
+
+								<img src="./img/checkin.svg" alt="" class="search__img-checkin">
+								<span class="search__text-checkin">Check in</span>
+
+								<span class="search__location-line-checkin"></span>
+								<img src="./img/arrowcheckinout.svg" alt="" class="search__checkin-arrow">
+								<span class="search__location-line"></span>
+
+							</div>
+							<div class="search__checkout">
+								<img src="./img/checkin.svg" alt="" class="search__img-checkout">
+								<span class="search__text-checkout">Check out</span>
+
+
+								<span class="search__location-line-checkout"></span>
+								<img src="./img/arrowcheckinout.svg" alt="" class="search__checkout-arrow">
+							</div>
+							<div class="search__button">
+								<a href="#" class="search__button-link">Search</a>
+							</div>
+
+						</div>
+						<div class="wiewall"><a href="" class="search__linkwiewall">View All</a></div>
+
+					</div>
+				</div>
+				<div class="gallery">
+
+					<div class="flex1">
+						<div class="gallery__img"><img src="./img/01.webp" alt=""></div>
+						<div class="gallery__img"><img src="./img/02.webp" alt=""></div>
+					</div>
+
+					<div class="flex2">
+						<div class="gallery__img"><img src="./img/03.webp" alt=""></div>
+						<div class="gallery__img"><img src="./img/04.webp" alt=""></div>
+						<div class="gallery__img"><img src="./img/05.webp" alt=""></div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<section class="ben">
+			<div class="container">
+				<div class="ben__container">
+					<div class="ben__cart ben__shadow">
+						<div class="ben__blockimgone"><img src="./img/ben1.svg" alt="" class="ben__img"></div>
+						<p class="ben__title">Travel guide</p>
+						<p class="ben__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard...</p>
+					</div>
+					<div class="ben__cart">
+						<div class="ben__blockimg"><img src="./img/ben2.svg" alt="" class="ben__img"></div>
+						<p class="ben__title">Support 24/7</p>
+						<p class="ben__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard...</p>
+					</div>
+					<div class="ben__cart">
+						<div class="ben__blockimg"><img src="./img/ben3.svg" alt="" class="ben__img"></div>
+						<p class="ben__title">A lot of Discount</p>
+						<p class="ben__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard...</p>
+					</div>
+					<div class="ben__cart">
+						<div class="ben__blockimg"><img src="./img/ben4.svg" alt="" class="ben__img"></div>
+						<p class="ben__title">Reliable Tour</p>
+						<p class="ben__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard...</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about container">
+			<div class="about__flex">
+				<div class="about__text">
+					<h2 class="about__title">Travel any corner of the world with travelo</h2>
+					<p class="about__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+						unknown printer took a galley.</p>
+					<a href="" class="about__button">Read More</a>
+				</div>
+				<div class="about__cart"
+					style="background-image: url('./img/cartbackground.png'); background-repeat: no-repeat; background-size: cover;">
+					<div class="cart-one">
+						<p class="num">10</p>
+						<p class="carttext">Years <br> Experience</p>
+					</div>
+					<div class="cart-two">
+						<p class="num">500</p>
+						<p class="carttext">Destination <br> Collaboration</p>
+					</div>
+					<div class="cart-three">
+						<p class="num">50k</p>
+						<p class="carttext">Happy <br> customer</p>
+					</div>
+				</div>
+			</div>
+			<div class="about__video">
+				<div class="video" style="background-image: url(./img/video1.webp)"></div>
+				<iframe width="1240" height="600" src="https://www.youtube.com/embed/dhrX_biPH8c"
+					title="YouTube video player" frameborder="0" allow="accelerometer;" allowfullscreen></iframe>
+			</div>
+		</section>
+		<section class="map container">
+			<div class="map__title">
+				<h2 class="map__title map__title-text">
+					People gages us lot's of <br> appreciation!
+				</h2>
+			</div>
+			<div class="map__flex">
+				<div class="map__img">
+					<img src="./img/map.webp" alt="">
+				</div>
+				<div class="map__flexbox">
+					<div class="map__text">
+						<p class="map__text-subtitle">
+							“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+							galley”
+						</p>
+						<div class="map__icons">
+							<img src="./img/map1.png" alt="">
+						</div>
+
+					</div>
+					<div class="map__button">
+						<a href="" class="map__link">See more</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+
+
+
+		<section class="footerbackground">
+<div class="footer container">
+	
+	
+	
+					<div class="footer__contact">
+						<div class="footer__img">
+							<img src="./img/logo.webp" alt="" class="footer__img">
+						</div>
+						<div class="footer__phoneemail">
+							<a href="" class="footer__email">chess@template.com</a>
+							<a href="TEL:+123 4567 890" class="footer__phone">+123 4567 890</a>
+						</div>
+						<div class="footer__soc">
+							<svg class="icon__twitter">
+								<use xlink:href="#twitter">
+	
+								</use>
+							</svg>
+							<svg class="icon__twitter">
+								<use xlink:href="#facebook">
+	
+								</use>
+							</svg>
+							<svg class="icon__twitter">
+								<use xlink:href="#insta">
+	
+								</use>
+							</svg>
+							<svg class="icon__twitter">
+								<use xlink:href="#in">
+	
+								</use>
+							</svg>
+						</div>
+					</div>
+	
+						<div class="footer__link">
+							<nav class="footer__nav">
+								<ul class="footer__ul">
+									<li class="footer__li-title">Quick Link</li>
+									<li class="footer__li"><a>Destinantion</a></li>
+									<li class="footer__li"><a>Service</a></li>
+									<li class="footer__li"><a>About us</a></li>
+									<li class="footer__li"><a>Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+	
+						<div class="footer__form">
+							<p class="footer__form-title">Subscribe To Get The Latest News</p>
+							<p class="footer__form-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							<div class="footer__form-subscribe">
+								<input type="text" placeholder="Enter email" class="form__input">
+								<a href="" class="footer__form-button">Subscribe</a>
+							</div>
+						</div>
+	
+	
+	
+	
+	
+	
+</div>
+
+		</section>
+	</main>
+
+
+	<footer class="footer"></footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+	<script src="/src/js/01_main.js"></script>
+</body>
+
+</html>
